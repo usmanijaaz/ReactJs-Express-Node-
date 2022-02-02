@@ -1,0 +1,110 @@
+.heading {
+  color: coral;
+  font-family: Arial;
+  font-size: 40px;
+}
+.filterbtn {
+  border-radius: 0%;
+  width: 110px;
+  background-color: rgb(235, 235, 235);
+}
+p {
+  color: gray;
+  font-size: 14px;
+}
+.para {
+  color: gray;
+  display: inline-block;
+}
+.topp {
+  background-image: linear-gradient(
+    to top,
+    rgb(233, 233, 233),
+    rgb(251, 251, 251)
+  );
+}
+.retro {
+  font-size: 14px;
+  color: gray;
+}
+.searchblock {
+  height: 40px;
+  padding-left: 38px;
+  padding-top: 10px;
+  border: 1px solid grey;
+}
+.girlimg {
+  width: 350px;
+  padding-bottom: 0px;
+  padding-top: auto;
+}
+
+.expandbutton {
+  width: 11px;
+}
+
+.cardlevel {
+  display: inline;
+  border: 1px solid black;
+  font-size: 13px;
+  width: fit-content;
+  color: grey;
+  padding: 1px 8px 1px 8px;
+}
+.cardimg {
+  width: 100%;
+  height: 60%;
+}
+.cardhead {
+  display: inline-block;
+  border-radius: 50%;
+  height: 65px;
+  width: 70px;
+  background-color: white;
+}
+
+.fixedfoot {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+label {
+  font-size: 14px;
+  padding-bottom: 13px;
+  color: grey;
+}
+.links {
+  color: gray;
+  text-decoration: none;
+  font-size: 14px;
+  border: none;
+}
+.links1:hover {
+  text-decoration: underline;
+  color: grey;
+  font: bold;
+}
+.links:hover {
+  text-decoration: underline;
+  color: grey;
+  font: bold;
+}
+li {
+  padding-bottom: 12px;
+  padding-left: 0%;
+}
+
+.card:hover {
+  border: 1px solid #e0e0e0;
+  background-color: white;
+  box-shadow: 3px 3px 6px 6px rgb(209, 209, 209);
+  transition: 0.5s;
+}
+.card {
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 0px 0px 2px 2px rgb(209, 209, 209);
+  height: 390px;
+  width: 250px;
+}
